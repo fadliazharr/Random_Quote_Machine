@@ -42,8 +42,7 @@ function App() {
         <a
           id="tweet-quote"
           href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(
-            `"${currentQuote.text}" – ${currentQuote.author}`
-          )}`}
+            `"${currentQuote.text}" – ${currentQuote.author}`)}`}
           target="_blank"
           rel="noreferrer"
           style={{ textDecoration: 'none', color: '#1DA1F2' }}
